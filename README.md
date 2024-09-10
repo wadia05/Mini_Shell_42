@@ -1,52 +1,54 @@
-# 🏴‍☠️🏴‍☠️ Mini_Shell_42 🏴‍☠️🏴‍☠️
-## Overview
-This project is part of the 42 Network curriculum. The goal of Minishell is to create a simplified version of a Unix shell. You will implement essential shell functionalities such as command execution, redirections, pipes, signal handling, and built-in shell commands, providing a deeper understanding of how shells like Bash work.
+# 🏴‍☠️ Mini_Shell_42 🏴‍☠️
 
-Minishell is a collaborative project that introduces you to system calls, process management, file descriptors, and various aspects of how a shell functions.
+## Overview
+
+Mini_Shell_42 is part of the 42 Network curriculum. The goal is to create a simplified version of a Unix shell, implementing essential functionalities such as command execution, redirections, pipes, signal handling, and built-in shell commands. This project provides a deeper understanding of how shells like Bash work and introduces concepts like system calls, process management, and file descriptors.
 
 ## Table of Contents
-- [Overview](#overview)
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 
 ## Features
 
-- **Interactive Prompt**: Presents a command-line prompt where users can input commands.
-- **Command Execution**: Executes binary files by searching the system's `PATH` or using absolute paths.
-- **Pipes (`|`)**: Handles inter-process communication using pipes.
-- **Redirections (`<`, `>`, `>>`,`<<`)**: Supports input/output redirection.
-- **Environment Variables**: Expands and manages environment variables.
-- **Signal Handling**: Captures signals (like `Ctrl+C`, `Ctrl+D`, `Ctrl+\`) for proper handling.
-- **Built-in Commands**:
-  - `echo`
-  - `cd`
-  - `pwd`
-  - `export`
-  - `unset`
-  - `env`
-  - `exit`
-  
+- **Interactive Prompt**: Command-line interface for user input
+- **Command Execution**: Runs binary files via PATH or absolute paths
+- **Pipes (`|`)**: Handles inter-process communication
+- **Redirections (`<`, `>`, `>>`, `<<`)**: Supports input/output redirection
+- **Environment Variables**: Expands and manages environment variables
+- **Signal Handling**: Manages signals like Ctrl+C, Ctrl+D, Ctrl+\
+- **Built-in Commands**: 
+  - echo
+  - cd
+  - pwd
+  - export
+  - unset
+  - env
+  - exit
+
 ## Installation
 
-1. **Clone the repository**:
+1. Clone the repository:
    ```bash
    git clone https://github.com/wadia05/Mini_Shell_42.git
    ```
-2. **Navigate to the project directory**:
+
+2. Navigate to the project directory:
+   ```bash
+   cd Mini_Shell_42
    ```
-   cd minishell
+
+3. Compile the project:
+   ```bash
+   make
    ```
-3  **Compile the project**:
-    Makefile will install all dependencies
-    ```
-    make
-    ```
-  
+
 ## Usage
 
-   **To start the minishell, run**:
-    ```
-    ./minishell
-    ```
-## 🏴‍☠️ ENJOY MINISHELL 🏴‍☠️
+To start Mini_Shell_42, run:
+```bash
+./minishell
+```
+
+## 🏴‍☠️ Enjoy Mini_Shell_42! 🏴‍☠️
