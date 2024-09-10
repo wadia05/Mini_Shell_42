@@ -36,7 +36,7 @@ Mini_Shell_42 is part of the 42 Network curriculum. The goal is to create a simp
 
 2. Navigate to the project directory:
    ```bash
-   cd Mini_Shell_42
+   cd Mini_Shell_42/minishell
    ```
 
 3. Compile the project:
