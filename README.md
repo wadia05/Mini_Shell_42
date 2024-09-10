@@ -39,9 +39,10 @@ Minishell is a collaborative project that introduces you to system calls, proces
    ```
 3  **Compile the project**:
     Makefile will install all dependencies
-     ```
-     make
     ```
+    make
+    ```
+  
 ## Usage
 
    **To start the minishell, run**:
